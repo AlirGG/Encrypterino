@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0381A73F1E817C0500F788A1 /* Tries.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0381A73E1E817C0500F788A1 /* Tries.txt */; };
+		6217B1261E805955009E75B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6217B1251E805955009E75B2 /* AppDelegate.swift */; };
+		6217B1281E805955009E75B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6217B1271E805955009E75B2 /* ViewController.swift */; };
+		6217B12B1E805955009E75B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6217B1291E805955009E75B2 /* Main.storyboard */; };
+		6217B12D1E805955009E75B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6217B12C1E805955009E75B2 /* Assets.xcassets */; };
+		6217B1301E805955009E75B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6217B12E1E805955009E75B2 /* LaunchScreen.storyboard */; };
+		6266D4101E80EC3E005F8F02 /* User.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6266D40F1E80EC3E005F8F02 /* User.txt */; };
+		6266D4121E80F16C005F8F02 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266D4111E80F16C005F8F02 /* LoginController.swift */; };
+		6266D4141E80FACE005F8F02 /* newUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266D4131E80FACE005F8F02 /* newUser.swift */; };
+		62ADDF121EB7EF610009B856 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ADDF111EB7EF610009B856 /* libsqlite3.tbd */; };
+		62ADDF161EB7F0740009B856 /* Puente.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ADDF151EB7F0740009B856 /* Puente.m */; };
+		745201171EB908D0002F4AE8 /* FileScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745201161EB908D0002F4AE8 /* FileScreenController.swift */; };
+		74842EA81E81C87700774D08 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74842EA71E81C87700774D08 /* Security.framework */; };
+		74842EAA1E81C8BD00774D08 /* EncryptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74842EA91E81C8BD00774D08 /* EncryptionController.swift */; };
+		74842EAD1E81D08000774D08 /* EncryptionScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74842EAC1E81D08000774D08 /* EncryptionScreenController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0381A73E1E817C0500F788A1 /* Tries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tries.txt; sourceTree = "<group>"; };
+		6217B1221E805955009E75B2 /* SegundoAvance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegundoAvance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6217B1251E805955009E75B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6217B1271E805955009E75B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6217B12A1E805955009E75B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6217B12C1E805955009E75B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6217B12F1E805955009E75B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6217B1311E805955009E75B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6266D40F1E80EC3E005F8F02 /* User.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = User.txt; sourceTree = "<group>"; };
+		6266D4111E80F16C005F8F02 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		6266D4131E80FACE005F8F02 /* newUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newUser.swift; sourceTree = "<group>"; };
+		62ADDF111EB7EF610009B856 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		62ADDF151EB7F0740009B856 /* Puente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Puente.m; sourceTree = "<group>"; };
+		62ADDF171EB7F0800009B856 /* PruebaBaseDeDatos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PruebaBaseDeDatos-Bridging-Header.h"; sourceTree = "<group>"; };
+		745201161EB908D0002F4AE8 /* FileScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileScreenController.swift; sourceTree = "<group>"; };
+		74842EA71E81C87700774D08 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		74842EA91E81C8BD00774D08 /* EncryptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptionController.swift; sourceTree = "<group>"; };
+		74842EAB1E81CCF800774D08 /* Encryption-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Encryption-Bridging-Header.h"; path = "../Encryption-Bridging-Header.h"; sourceTree = "<group>"; };
+		74842EAC1E81D08000774D08 /* EncryptionScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptionScreenController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6217B11F1E805955009E75B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ADDF121EB7EF610009B856 /* libsqlite3.tbd in Frameworks */,
+				74842EA81E81C87700774D08 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6217B1191E805955009E75B2 = {
+			isa = PBXGroup;
+			children = (
+				6217B1241E805955009E75B2 /* SegundoAvance */,
+				6217B1231E805955009E75B2 /* Products */,
+				74842EA61E81C87700774D08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6217B1231E805955009E75B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6217B1221E805955009E75B2 /* SegundoAvance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6217B1241E805955009E75B2 /* SegundoAvance */ = {
+			isa = PBXGroup;
+			children = (
+				62ADDF151EB7F0740009B856 /* Puente.m */,
+				6217B1251E805955009E75B2 /* AppDelegate.swift */,
+				6217B1271E805955009E75B2 /* ViewController.swift */,
+				6217B1291E805955009E75B2 /* Main.storyboard */,
+				6217B12C1E805955009E75B2 /* Assets.xcassets */,
+				6217B12E1E805955009E75B2 /* LaunchScreen.storyboard */,
+				6217B1311E805955009E75B2 /* Info.plist */,
+				6266D40F1E80EC3E005F8F02 /* User.txt */,
+				6266D4111E80F16C005F8F02 /* LoginController.swift */,
+				6266D4131E80FACE005F8F02 /* newUser.swift */,
+				0381A73E1E817C0500F788A1 /* Tries.txt */,
+				62ADDF171EB7F0800009B856 /* PruebaBaseDeDatos-Bridging-Header.h */,
+				74842EA91E81C8BD00774D08 /* EncryptionController.swift */,
+				74842EAB1E81CCF800774D08 /* Encryption-Bridging-Header.h */,
+				74842EAC1E81D08000774D08 /* EncryptionScreenController.swift */,
+				745201161EB908D0002F4AE8 /* FileScreenController.swift */,
+			);
+			path = SegundoAvance;
+			sourceTree = "<group>";
+		};
+		74842EA61E81C87700774D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62ADDF111EB7EF610009B856 /* libsqlite3.tbd */,
+				74842EA71E81C87700774D08 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6217B1211E805955009E75B2 /* SegundoAvance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6217B1341E805955009E75B2 /* Build configuration list for PBXNativeTarget "SegundoAvance" */;
+			buildPhases = (
+				6217B11E1E805955009E75B2 /* Sources */,
+				6217B11F1E805955009E75B2 /* Frameworks */,
+				6217B1201E805955009E75B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegundoAvance;
+			productName = SegundoAvance;
+			productReference = 6217B1221E805955009E75B2 /* SegundoAvance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6217B11A1E805955009E75B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Roberto;
+				TargetAttributes = {
+					6217B1211E805955009E75B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PX47ST752A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6217B11D1E805955009E75B2 /* Build configuration list for PBXProject "SegundoAvance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6217B1191E805955009E75B2;
+			productRefGroup = 6217B1231E805955009E75B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6217B1211E805955009E75B2 /* SegundoAvance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6217B1201E805955009E75B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0381A73F1E817C0500F788A1 /* Tries.txt in Resources */,
+				6217B1301E805955009E75B2 /* LaunchScreen.storyboard in Resources */,
+				6266D4101E80EC3E005F8F02 /* User.txt in Resources */,
+				6217B12D1E805955009E75B2 /* Assets.xcassets in Resources */,
+				6217B12B1E805955009E75B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6217B11E1E805955009E75B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74842EAD1E81D08000774D08 /* EncryptionScreenController.swift in Sources */,
+				6217B1281E805955009E75B2 /* ViewController.swift in Sources */,
+				74842EAA1E81C8BD00774D08 /* EncryptionController.swift in Sources */,
+				6266D4141E80FACE005F8F02 /* newUser.swift in Sources */,
+				62ADDF161EB7F0740009B856 /* Puente.m in Sources */,
+				6266D4121E80F16C005F8F02 /* LoginController.swift in Sources */,
+				6217B1261E805955009E75B2 /* AppDelegate.swift in Sources */,
+				745201171EB908D0002F4AE8 /* FileScreenController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6217B1291E805955009E75B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6217B12A1E805955009E75B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6217B12E1E805955009E75B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6217B12F1E805955009E75B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6217B1321E805955009E75B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6217B1331E805955009E75B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6217B1351E805955009E75B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PX47ST752A;
+				INFOPLIST_FILE = SegundoAvance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DGGG.SegundoAvance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Encryption-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6217B1361E805955009E75B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PX47ST752A;
+				INFOPLIST_FILE = SegundoAvance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DGGG.SegundoAvance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Encryption-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6217B11D1E805955009E75B2 /* Build configuration list for PBXProject "SegundoAvance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6217B1321E805955009E75B2 /* Debug */,
+				6217B1331E805955009E75B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6217B1341E805955009E75B2 /* Build configuration list for PBXNativeTarget "SegundoAvance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6217B1351E805955009E75B2 /* Debug */,
+				6217B1361E805955009E75B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6217B11A1E805955009E75B2 /* Project object */;
+}
