@@ -21,7 +21,8 @@ class newUser: UIViewController, UITextFieldDelegate {
             print(path)
             do{
                 try text.write(to: path, atomically: false, encoding: String.Encoding.utf8)
-                
+                self.performSegue(withIdentifier:  "create", sender: self)
+
             }catch let error as NSError{
                 
                 print("fk \(error)")

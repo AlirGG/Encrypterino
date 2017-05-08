@@ -297,5 +297,9 @@ class LoginController: UIViewController,UITextFieldDelegate,UIApplicationDelegat
         return(true)
     }
     
+    @IBAction func newUser(_ sender: Any) {
+        self.performSegue(withIdentifier:  "new", sender: self)
+
+    }
     
 }
